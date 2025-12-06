@@ -5,7 +5,7 @@ namespace B1tcod3\Reveron;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
 
-class UiKitServiceProvider extends ServiceProvider
+class ReveronProvider extends ServiceProvider
 {
     public function boot()
     {
@@ -15,7 +15,7 @@ class UiKitServiceProvider extends ServiceProvider
 
         // 2. Registrar el namespace de los Componentes de Clase (Backend)
         // Esto permite usar <x-uikit::alert /> y que busque la clase Alert en src/Components
-        Blade::componentNamespace('B1tcode\\Reveron\\Components', 'uikit');
+        Blade::componentNamespace('B1tcod3\\Reveron\\Components', 'reveron');
         
         // Opcional: Publicar vistas si quieres que el usuario las pueda editar
         $this->publishes([
