@@ -1,0 +1,22 @@
+{
+    "name": "b1tcod3/reveron",
+    "description": "A Laravel UI Kit package providing reusable UI components.",
+    "keywords": ["laravel", "ui kit", "components", "blade"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "B1tcod3\\Reveron\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "B1tcod3\\Reveron\\ReveronProvider"
+            ]
+        }
+    },
+    "require": {
+        "illuminate/support": "^10.0|^11.0"
+    }
+}
