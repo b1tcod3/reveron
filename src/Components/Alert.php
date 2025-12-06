@@ -1,6 +1,6 @@
 <?php
 
-namespace DevMaster\UiKit\Components;
+namespace B1tcod3\Reveron\Components;
 
 use Illuminate\View\Component;
 
