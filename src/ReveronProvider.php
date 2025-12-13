@@ -14,7 +14,7 @@ class ReveronProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'reveron');
 
         // 2. Registrar el namespace de los Componentes de Clase (Backend)
-        // Esto permite usar <x-uikit::alert /> y que busque la clase Alert en src/Components
+        // Esto permite usar <x-reveron::alert /> y que busque la clase Alert en src/Components
         Blade::componentNamespace('B1tcod3\\Reveron\\Components', 'reveron');
         
         // Opcional: Publicar vistas si quieres que el usuario las pueda editar
